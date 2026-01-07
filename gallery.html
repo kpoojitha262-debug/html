@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mini Image Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+        }
+        h1 {
+            color: #333;
+        }
+        .gallery {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-top: 30px;
+        }
+        .gallery a img {
+            width: 200px;
+            height: 150px;
+            border-radius: 8px;
+            transition: transform 0.3s;
+        }
+        .gallery a img:hover {
+            transform: scale(1.1);
+        }
+        .caption {
+            text-align: center;
+            margin-top: 5px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>My Mini Image Gallery</h1>
+
+    <div class="gallery">
+        <div>
+            <a href="https://www.google.com" target="_blank">
+                <img src="https://via.placeholder.com/200x150?text=Google" alt="Google">
+            </a>
+            <div class="caption">Google</div>
+        </div>
+
+        <div>
+            <a href="https://www.wikipedia.org" target="_blank">
+                <img src="https://via.placeholder.com/200x150?text=Wikipedia" alt="Wikipedia">
+            </a>
+            <div class="caption">Wikipedia</div>
+        </div>
+
+        <div>
+            <a href="https://www.youtube.com" target="_blank">
+                <img src="https://via.placeholder.com/200x150?text=YouTube" alt="YouTube">
+            </a>
+            <div class="caption">YouTube</div>
+        </div>
+
+        <div>
+            <a href="https://www.github.com" target="_blank">
+                <img src="https://via.placeholder.com/200x150?text=GitHub" alt="GitHub">
+            </a>
+            <div class="caption">GitHub</div>
+        </div>
+    </div>
+
+</body>
+</html>
