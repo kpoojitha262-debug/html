@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML5 Semantic Tags</title>
+</head>
+<body>
+    <header>
+        <h1>ABC College</h1>
+    </header>
+    <nav>
+        <a href="#">Home</a> |
+        <a href="#">Courses</a> |
+        <a href="#">Contact</a>
+    </nav>
+    <main>
+        <section>
+            <h2>About College</h2>
+            <p>ABC College provides quality education in engineering.</p>
+        </section>
+        <article>
+            <h2>Latest News</h2>
+            <p>Admissions are open for the academic year 2026.</p>
+        </article>
+        <aside>
+            <h3>Notice</h3>
+            <p>Scholarship applications close on August 15.</p>
+        </aside>
+    </main>
+    <footer>
+        <p>&copy; 2026 ABC College. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
