@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML Formatting Tags</title>
+</head>
+<body>
+    <h1>HTML Formatting Tags Example</h1>
+    <p><b>This text is bold.</b></p>
+    <p><strong>This text is strong.</strong></p>
+    <p><i>This text is italic.</i></p>
+    <p><em>This text is emphasized.</em></p>
+    <p><u>This text is underlined.</u></p>
+    <p><mark>This text is highlighted.</mark></p>
+    <p><small>This is small text.</small></p>
+    <p>H<sub>2</sub>O (Subscript)</p>
+    <p>x<sup>2</sup> + y<sup>2</sup> = z<sup>2</sup> (Superscript)</p>
+    <p><del>This text is deleted.</del></p>
+    <p><ins>This text is inserted.</ins></p>
+</body>
+</html>
