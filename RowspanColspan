@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Rowspan and Colspan Example</title>
+</head>
+<body>
+
+<h2>Student Marks Table</h2>
+
+<table border="1" cellpadding="10" cellspacing="0">
+
+    <tr>
+        <th rowspan="2">Roll No</th>
+        <th rowspan="2">Name</th>
+        <th colspan="3">Marks</th>
+    </tr>
+
+    <tr>
+        <th>Java</th>
+        <th>Python</th>
+        <th>HTML</th>
+    </tr>
+
+    <tr>
+        <td>101</td>
+        <td>Poojitha</td>
+        <td>95</td>
+        <td>90</td>
+        <td>92</td>
+    </tr>
+
+    <tr>
+        <td>102</td>
+        <td>Ram</td>
+        <td>88</td>
+        <td>91</td>
+        <td>85</td>
+    </tr>
+
+</table>
+
+</body>
+</html>
