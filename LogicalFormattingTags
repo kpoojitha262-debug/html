@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Logical Formatting Tags</title>
+</head>
+<body>
+    <h2>Logical Formatting Tags Example</h2>
+    <p><strong>This is important text.</strong></p>
+    <p><em>This is emphasized text.</em></p>
+    <p><abbr title="HyperText Markup Language">HTML</abbr> is used to create web pages.</p>
+    <p><cite>Wings of Fire</cite> is a famous book.</p>
+    <p>Java code: <code>System.out.println("Hello");</code></p>
+    <p>Press <kbd>Ctrl + C</kbd> to copy.</p>
+    <p>Output: <samp>Hello World</samp></p>
+    <p>The value of <var>x</var> is 10.</p>
+    <p><dfn>HTML</dfn> is the standard markup language for creating web pages.</p>
+
+</body>
+</html>
