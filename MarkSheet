@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Marksheet</title>
+</head>
+
+<body>
+
+    <h1 align="center">STUDENT MARKSHEET</h1>
+
+    <table border="1" align="center" cellpadding="10">
+        <tr>
+            <th colspan="4">Student Details</th>
+        </tr>
+
+        <tr>
+            <td><b>Name</b></td>
+            <td>Poojitha</td>
+            <td><b>Roll No</b></td>
+            <td>101</td>
+        </tr>
+
+        <tr>
+            <td><b>Course</b></td>
+            <td colspan="3">B.Tech</td>
+        </tr>
+
+        <tr>
+            <th>Subject</th>
+            <th>Max Marks</th>
+            <th>Marks Obtained</th>
+            <th>Grade</th>
+        </tr>
+
+        <tr>
+            <td>Java</td>
+            <td>100</td>
+            <td>85</td>
+            <td>A</td>
+        </tr>
+
+        <tr>
+            <td>Python</td>
+            <td>100</td>
+            <td>90</td>
+            <td>A+</td>
+        </tr>
+
+        <tr>
+            <td>DBMS</td>
+            <td>100</td>
+            <td>78</td>
+            <td>B+</td>
+        </tr>
+
+        <tr>
+            <td>HTML</td>
+            <td>100</td>
+            <td>88</td>
+            <td>A</td>
+        </tr>
+
+        <tr>
+            <th colspan="2">Total</th>
+            <th>341 / 400</th>
+            <th>A</th>
+        </tr>
+
+    </table>
+
+</body>
+</html>
