@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Email Link </title>
+</head>
+<body>
+
+<a href = "malto:abc@gmail.com">Send Email </a>
+</body>
+</html>
